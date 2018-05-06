@@ -14,6 +14,20 @@
   },
   {
     "type": "container",
+    "title": "SILK Apache PHP5.6",
+    "description": "Apache web server",
+    "categories": ["webserver"],
+    "platform": "linux",
+    "logo": "https://portainer.io/images/logos/httpd.png",
+    "image": "silk/apache-php-x:v1",
+    "ports": [
+      "80/tcp",
+      "443/tcp"
+    ],
+    "volumes": ["/etc/apache2", "/var/www/html"]
+  },
+  {
+    "type": "container",
     "title": "Nginx",
     "description": "High performance web server",
     "categories": ["webserver"],
