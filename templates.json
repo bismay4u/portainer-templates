@@ -18,7 +18,7 @@
     "description": "Apache web server",
     "categories": ["webserver"],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/httpd.png",
+    "logo": "http://smartinfologiks.com/apps/silk/media/images/main-logo.png",
     "image": "silk/apache-php-x:v1",
     "ports": [
       "80/tcp",
