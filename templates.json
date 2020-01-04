@@ -14,12 +14,26 @@
   },
   {
     "type": "container",
-    "title": "SILK Apache PHP5.6",
-    "description": "Apache web server",
+    "title": "SILK Apache PHP7.0",
+    "description": "Apache web server with PHP7.0",
     "categories": ["webserver"],
     "platform": "linux",
-    "logo": "http://smartinfologiks.com/apps/silk/media/images/main-logo.png",
-    "image": "silk/apache-php-x:v1",
+    "logo": "https://www.smartinfologiks.com/apps/silk/media/logos/logox128.png",
+    "image": "smartinfologiks/php7.0",
+    "ports": [
+      "80/tcp",
+      "443/tcp"
+    ],
+    "volumes": ["/etc/apache2", "/var/www/html"]
+  },
+  {
+    "type": "container",
+    "title": "SILK Apache PHP5.6",
+    "description": "Apache web server with PHP5.6",
+    "categories": ["webserver"],
+    "platform": "linux",
+    "logo": "https://www.smartinfologiks.com/apps/silk/media/logos/logox128.png",
+    "image": "smartinfologiks/php5.6",
     "ports": [
       "80/tcp",
       "443/tcp"
